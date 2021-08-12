@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    background-color: #fdf1f0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.head {
+    height: 70px;
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.logo h1 {
+    color: #fdf1f0;
+}
+
+.button {
+    width: 15%;
+    height: 40px;
+}
+
+.canva {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    background-color: #ffea33;
+    margin-bottom: 1rem;
+}
+
+.press {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.press:hover {
+    cursor: pointer;
+    transform: scale(80%);
+}
+
+.press .image img {
+    width: 100%;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.scores h2 {
+    margin: 0.4rem;
+}
