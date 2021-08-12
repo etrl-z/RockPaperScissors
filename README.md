@@ -1,2 +1,2 @@
-# my-projects
-Personal projects and experiments
+# rock-paper-scissors
+Personal experiment
