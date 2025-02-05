@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock - Paper - Scissors</title>
     <link rel="stylesheet" href="mystyle.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-    
+
     <script type="text/javascript" src="RPS.js"></script>
 </head>
 
@@ -23,30 +23,42 @@
         <button class="button" id="btn" style="display: none;" onclick="return reset()">RESET</button>
     </div>
     <div class="canva">
-        <div class="press">
-            <div class="image" id="rock" onclick="return move('r')">
-                <img src="images/rock.jpg" alt="rock">
+        <div class="box">
+            <div class="press">
+                <div class="image" id="rock" onclick="return move('r')">
+                    <img src="images/rock.jpg" alt="rock">
+                </div>
             </div>
             <h2>ROCK</h2>
         </div>
-        <div class="press">
-            <div class="image" id="paper" onclick="return move('p')">
-                <img src="images/paper.jpg" alt="paper">
+        <div class="box">
+            <div class="press">
+                <div class="image" id="paper" onclick="return move('p')">
+                    <img src="images/paper.jpg" alt="paper">
+                </div>
             </div>
             <h2>PAPER</h2>
         </div>
-        <div class="press">
-            <div class="image" id="scissors" onclick="return move('s')">
-                <img src="images/scissors.jpg" alt="scissors">
+        <div class="box">
+            <div class="press">
+                <div class="image" id="scissors" onclick="return move('s')">
+                    <img src="images/scissors.jpg" alt="scissors">
+                </div>
             </div>
             <h2>SCISSORS</h2>
         </div>
     </div>
     <div class="scores">
-        <h2 id="moves">Make your move!</h2>
-        <h2 id="result"></h2>
-        <h2 id="points">0 - 0</h2>
+        <h2>HUMAN :</h2>
+        <div class="screen" id="screen-1"></div>
+        <div class="scoreboard">
+            <div class="points" id="points">0-0</div>
+            <div class="message" id="message">MAKE YOUR MOVE</div>
+        </div>
+        <div class="screen" id="screen-2"></div>
+        <h2>: COMPUTER</h2>
     </div>
 
 </body>
+
 </html>
